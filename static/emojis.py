@@ -1,4 +1,4 @@
-emojis = {
+Emojis = {
 	"+1": "\U0001f44d",
 	"thumbsup": "\U0001f44d",
 	"-1": "\U0001f44e",
@@ -21,6 +21,7 @@ emojis = {
 	"aerial_tramway": "\U0001f6a1",
 	"afghanistan": "\U0001f1e6-1f1eb",
 	"airplane": "\U00002708",
+    "aeroplane": "\U00002708",
 	"aland_islands": "\U0001f1e6-1f1fd",
 	"alarm_clock": "\U000023f0",
 	"albania": "\U0001f1e6-1f1f1",
