@@ -1,0 +1,23 @@
+{% include '/layout/layout.html' %}
+{% block body %}
+    <div class="container">
+        <div class="heading">
+            <h1>emojified</h1>
+        </div>
+        <div class="content">
+            <div class="english">
+                <form action="home" method="get">    
+                    <label for="english">English</label><br>
+                    <input name="english" id="english"></input><br>
+                </form>
+            </div>
+            <div class="emoji">
+                <form action="home" method="get">    
+                    <label for="emoji">Emojis</label><br>
+                    <input name="emojis" id="emoji" value="{{ translated }}"></input><br>
+                </form>
+            </div>
+            <h2 class="heading2">Press enter to Translate</h2>
+        </div>
+    </div>
+{% endblock %}
